@@ -28,6 +28,9 @@
     <item href="ad11.xhtml" id="ad11" media-type="application/x-dtbncx+xml"/>
     <item href="ad12.xhtml" id="ad12" media-type="application/x-dtbncx+xml"/>
     <item href="ad13.xhtml" id="ad13" media-type="application/x-dtbncx+xml"/>
+    <item id="id1" href="far_frontiers_nameplate_01.svg" media-type="image/svg+xml"/>
+    <item id="id4" href="baen_books_logo_01.svg" media-type="image/svg+xml"/>
+    <item id="id2" href="Plakette-Serial-HeavyRegular.ttf" media-type="application/x-font-truetype"/>
   </manifest>
   <spine toc="ncx">
     <itemref idref="start"/>
