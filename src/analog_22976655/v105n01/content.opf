@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="uuid_id" version="2.0">
+  <metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:opf="http://www.idpf.org/2007/opf">
+    <dc:identifier opf:scheme="calibre" id="calibre_id">2aebd0e5-2f24-48a6-85e1-133933ba8cee</dc:identifier>
+    <dc:identifier opf:scheme="uuid" id="uuid_id">563ea765-a419-40cd-8887-54fecb6e736f</dc:identifier>
+    <dc:title>Analog</dc:title>
+    <dc:creator opf:file-as="Unknown" opf:role="aut">test</dc:creator>
+    <dc:contributor opf:file-as="calibre" opf:role="bkp">calibre (7.26.0) [https://calibre-ebook.com]</dc:contributor>
+    <dc:language>eng</dc:language>
+  </metadata>
+  <manifest>
+    <item href="cover.xhtml" id="cover" media-type="application/xhtml+xml"/>
+    <item href="toc.ncx" id="ncx" media-type="application/x-dtbncx+xml"/>
+    <item href="ad01.xhtml" id="ad01" media-type="application/x-dtbncx+xml"/>
+    <item href="ad02.xhtml" id="ad02" media-type="application/x-dtbncx+xml"/>
+    <item href="ad03.xhtml" id="ad03" media-type="application/x-dtbncx+xml"/>
+    <item href="toc.xhtml" id="toc" media-type="application/x-dtbncx+xml"/>
+    <item href="editorial01.xhtml" id="ed01" media-type="application/x-dtbncx+xml"/>
+    <item href="masthead.xhtml" id="masthead" media-type="application/x-dtbncx+xml"/>
+    <item href="ad04.xhtml" id="ad04" media-type="application/x-dtbncx+xml"/>
+    <item href="ad05.xhtml" id="ad05" media-type="application/x-dtbncx+xml"/>
+    <item href="story01.xhtml" id="story01" media-type="application/x-dtbncx+xml"/>
+    <item href="ad06.xhtml" id="ad06" media-type="application/x-dtbncx+xml"/>
+    <item href="ad07.xhtml" id="ad07" media-type="application/x-dtbncx+xml"/>
+    <item href="ad08.xhtml" id="ad08" media-type="application/x-dtbncx+xml"/>
+    <item href="ad09.xhtml" id="ad09" media-type="application/x-dtbncx+xml"/>
+    <item href="ad10.xhtml" id="ad10" media-type="application/x-dtbncx+xml"/>
+    <item href="ad11.xhtml" id="ad11" media-type="application/x-dtbncx+xml"/>
+    <item href="ad12.xhtml" id="ad12" media-type="application/x-dtbncx+xml"/>
+    <item href="ad13.xhtml" id="ad13" media-type="application/x-dtbncx+xml"/>
+  </manifest>
+  <spine toc="ncx">
+    <itemref idref="start"/>
+  </spine>
+  <guide>
+    <reference type="cover" href="cover.xhtml"/>
+  </guide>
+  <guide/>
+</package>
