@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+      <title>Advertisement: Trillium Interactive Software</title>
+  </head>
+  <body>
+    <h1>Booted up any good books lately?</h1>
+    <h2>Introducing Trillium™ interactive software</h2>
+    <img src="retail_packages" src="" /> 
+    <p>Maybe you’ve wondered what kind of software a giant like Bradbury or Crichton or Clarke could dream up. Maybe you’ve wondered what it would be like to be the hero in one of their mind-boggling adventures.</p>
+    <p>Or maybe you’ve just wondered if you’d ever see software that knocks you right out of your seat—and literally lands you in a whole new world.</p>
+    <p>Well, now you can stop wondering. Because now there’s Trillium. An entire line of games produced in collaboration with the greatest science fiction authors of our century. An entire line of the most challenging, most exciting, most rewarding adventures ever created. Adventures that put you right in the center of action—and completely in command.</p>
+    <p>Only Trillium gives you programs like <b>Fahrenheit 451™,</b> Ray Bradbury's timeless masterpiece about one man’s courage to defy a book-burning, repressive state. Only Trillium combines a line of classic fiction with state-of-the-art interactive features—features like full-color graphics, advanced text parsers, and the intense, realistic game play of multiple-disk programs. And only Trillium gives you these benefits in every single game.</p>
+    <img id="screenshot" src="" />
+    <p>Trillium. We give you more than great software. We give you great books to boot.</p>
+    <div id="logo" />
+    <p id="copyright_notice">© 1984, Trillium Corp. All rights reserved. Apple is a regstered trademark of Apple Computer, Inc. Commodore 64 is a trademark of Commodore Industries, Ltd. <span class="game_title">Shadowkeep</span>, <span class="game_title">Rendezvous with Rama</span>, <span class="game_title">Dragonworld</span>, <span class="game_title">Amazon</span> and <span class="game_title">Fahrenheit 451</span> computer programs are trademarks of Trillium Corp.</p>
+  </body>
+</html>
