@@ -3,44 +3,132 @@
   <head>
       <title>Analog: A Calendar of Upcoming Events</title>
       <style>
+@font-face {
+  src: url(../../../assets/fonts/TimesNewRomanMT/TimesNewRomanBoldItalic.otf);
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../../../assets/fonts/TimesNewRomanMTTimesNewRomanBold.otf);
+  font-family: "Times New Roman";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../../../assets/fonts/TimesNewRomanMTTimesNewRomanItalic.otf);
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-style: italic;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../../../assets/fonts/TimesNewRomanMTTimesNewRoman.otf);
+  font-family: "Times New Roman";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../../../assets/fonts/KabelITC/ITCKabelStdBook.TTF);
+  font-family: "ITC Kabel Std Book";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+  }
+h1 {
+  text-transform: lowercase;
+  font-family: "ITC Kabel Std Book";
+  height: 5.5em;
+  padding: 0.3em 0;
+  border-top: 12px solid transparent;
+  border-bottom: 12px solid transparent;
+  border-image: url(../../../assets/decorations/border001.svg) 8 0 8 0 stretch;
+  width: 50%;
+}
+h1 img {
+  max-width: 10em;
+  width: 90%;
+  float: left;
+  shape-outside: url(../../../assets/logos/analog_001.svg);
+  margin-bottom: 0.2em;
+}
+article {
+    font-family: "Times New Roman";
+    text-align: justify;
+}
+article > time {
+  font-weight: bold;
+}
+footer {
+  margin-top: 2em;
+  font-family: "Helvetica";
+}
+footer p {
+  font-style: italic;
+}
+article, footer p {
+  border-bottom: 1px solid black;
+  margin-top: 0.7em;
+  padding-bottom: 0.4em;
+}
+#editor {
+  text-align: right;
+  border-bottom: 1px solid black;
+}
+#editor:before {
+  content: "—";
+}
+address {
+  display: inline;
+  font-style: normal;
+}
+a {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: inherit;
+}
       </style>
   </head>
   <body>
-    <article>
-      <time datetime="">–</time>
-      <section></section>
-    </article>
+    <h1>A Calendar of <img src="../../../assets/logos/analog_001.svg" /> Upcoming Events</h1>
     <article>
       <time datetime="1985-01-13/1985-01-16">13–16 January</time>
-      <section>12th Symposium on Principles of Programming Languages at <address>New Orleans, La.</address> Info: <address>Mary S. Van Duesen, 34 Archer Street, Wrentham MA 02093.</address><a href="tel:">617-384-2526</a></section>
+      <section>12th Symposium on Principles of Programming Languages at <address>New Orleans, La.</address> Info: <address>Mary S. Van Duesen, 34 Archer Street, Wrentham MA 02093</address>. <a href="tel:16173842526">617-384-2526</a></section>
     </article>
     <article>
       <time datetime="1985-01-18/1985-01-20">18–20 January</time>
-      <section></section>
+      <section>RUSTYCON II (Seattle area SF conference) at <address>Sea-Tac Hyatt, Seattle, Wash.</address> Writer Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Gordon Eklund</span><link itemprop="sameAs" href="http://viaf.org/viaf/266523358"/></span>, Artist Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Kevin Johnson</span><link itemprop="sameAs" href="http://viaf.org/viaf/158145541806696600858"/></span>, Fan Guest of Honor—Steven Fahnestalk. <span itemscope itemtype="https://schema.org/Offer"><span itemprop="name">Registration—$15</span> until <time itemprop="availabilityEnds" datetime="1984-12-31">31 December 1984</time></span>, $18 at the door. Info: <address>Box 47132, Seattle WA 98146</address>.</section>
     </article>
     <article>
       <time datetime="1985-01-21/1985-01-24">21–24 January</time>
-      <section></section>
+      <section>General meeting of the American Physical Society at <address>Toronto, Ontario, Canada</address>. Info: <address>A.P.S., 335 East 45th Street, New York, NY 10017</address>.</section>
     </article>
     <article>
       <time datetime="1985-01-25/1985-01-27">25–27 January</time>
-      <section></section>
+      <section>DECADENT CONFUSION (Ann Arbor area SF conference) at <address>Plymouth Hilton</address>. Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Allan Dean Foster</span><link itemprop="sameAs" href="http://viaf.org/viaf/64209108"/></span>, Fan Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Julia Ecklar</span><link itemprop="sameAs" href="http://viaf.org/viaf/93466210"/></span>, TM-Marty Burke. Registration—$10 until <time itemprop="availabilityEnds" datetime="1984-11-07">7 November</time>, $13 until <time itemprop="availabilityEnds" datetime="1985-01-01">1 January</time>, $15 thereafter and at the door. Banquet—$13. Info: <address>AASFA/ConFusion, Box 8284, Ann Arbor MI 48107</address>.</section>
     </article>
     <article>
       <time datetime="1985-01-26/1985-01-27">26–27 January</time>
-      <section></section>
+      <section>CHIMERACON II (North Carolina SF Conference) at <address>Carolina Union, UNC Chapel Hill, North Carolina</address>. Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Karl Edward Wagner</span><link itemprop="sameAs" href="https://viaf.org/en/viaf/101743614"/></span>, other guests: <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Manly Wade Wellman</span><link itemprop="sameAs" href="http://viaf.org/viaf/62442804"/></span>, <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Frances Garfield</span><link itemprop="sameAs" href="http://viaf.org/viaf/9412719"/></span>, <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Allen Wold</span><link itemprop="sameAs" href="http://viaf.org/viaf/94574183"/></span>, <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">David Drake</span><link itemprop="sameAs" href="http://viaf.org/viaf/35324058"/></span>, <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">M.A. Foster</span><link itemprop="sameAs" href="https://viaf.org/en/viaf/79327361"/></span>, <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Walter Meyers</span><link itemprop="sameAs" href="https://viaf.org/en/viaf/1287581"/></span>. Registration—$4 in advance; $2.50/day at the door. Info: <address>Dorothy M. Wright, 102-D Todd Street, Carrboro NC 27510</address>. <a href="tel:19199673049">919-967-3049</a></section>
     </article>
     <article>
       <time datetime="1985-02-01/1985-02-03">1–3 February</time>
-      <section></section>
+      <section>TAKE MY CON … PLEASE (Humor-oriented SF conference) at <address>Sheraton Northwest, Silver Spring, MD</address>. Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Diane Duane</span><link itemprop="sameAs" href="http://viaf.org/viaf/27273094"/></span>, Artist Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Phil Foglio</span><link itemprop="sameAs" href="http://viaf.org/viaf/13723157"/></span>. Registration—$10 in advance. Info: <address>W.A.C.O., Box 335, Arnold MD 21012</address>.</section>
     </article>
     <article>
       <time datetime="1985-08-22/1985-08-26">22–26 August 1985</time>
-      <section></section>
+      <section>AUSSIECON II (43rd World Science Fiction Convention) at <address>Southern Cross Hotel, Melbourne, Victoria, Australia</address>. Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Gene Wolfe</span><link itemprop="sameAs" href="http://viaf.org/viaf/92193245"/></span>, Fan Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Ted White</span><link itemprop="sameAs" href="https://viaf.org/en/viaf/20927447"/></span> <span itemscope itemtype="https://schema.org/Offer"><span itemprop="name">Registration—A$30</span> until <time itemprop="availabilityEnds" datetime="1984-12-31"></time>31 December 1984</time></span> (supporting); <span itemscope itemtype="https://schema.org/Offer"><span itemprop="name">A$50</span> until <time itemprop="availabilityEnds" datetime="1983-12-31"></time>31 December 1984</time></span> (attending). This is the SF universe’s annual get-together. Professionals and readers from all over the world will be in attendance. Talks, panels, films, fancy dress competition, the works. Join now and get to nominate and vote for the Hugo awards and John W. Campbell Award for Best New Writer. Info: <address>Aussiecon Two, GPO Box 2253U, Melbourne VIC 3001, Australia</address> (use airmail); <address>Fred Patten, 11863 West Jefferson Blvd. #1, Culver City CA 90230</address> (membership info); <address>jan howard finder, Box 428, Latham NY 12100</address>.</section>
     </article>
     <article>
       <time datetime="1985-08-30/1985-09-02">30 August–2 September 1985</time>
-      <section>NASFiC 1985 (North American SF Convention, officially The First Occasional Lone Star SF Convention & Chili Cook-off) at the <address>Hyatt Regency Austin, Texas</address>. Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jack Vance</span><link itemprop="sameAs" href="https://viaf.org/en/viaf/111614127"/></span>, Artist Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Richard Powers</span><link itemprop="sameAs" href="http://viaf.org/viaf/113865419"/></span>, Fan Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Joanne Burger</span><link itemprop="sameAs" href="http://viaf.org/viaf/23169174387256080558"/></span>, TM—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Chad Oliver</span><link itemprop="sameAs" href="http://viaf.org/viaf/37419025"/></span>. <span itemscope itemtype="https://schema.org/Offer"><span itemprop="name">Registration—attending $25</span> until <time itemprop="availabilityEnds" datetime="1985-06-30">30 June 1984</time></span>, supporting—$15. Info: <address>NASFiC, Box 9612, Austin TX 78766</address></section>
+      <section>NASFiC 1985 (North American SF Convention, officially The First Occasional Lone Star SF Convention & Chili Cook-off) at the <address>Hyatt Regency Austin, Texas</address>. Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jack Vance</span><link itemprop="sameAs" href="https://viaf.org/en/viaf/111614127"/></span>, Artist Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Richard Powers</span><link itemprop="sameAs" href="http://viaf.org/viaf/113865419"/></span>, Fan Guest of Honor—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Joanne Burger</span><link itemprop="sameAs" href="http://viaf.org/viaf/23169174387256080558"/></span>, TM—<span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Chad Oliver</span><link itemprop="sameAs" href="http://viaf.org/viaf/37419025"/></span>. <span itemscope itemtype="https://schema.org/Offer"><span itemprop="name">Registration—attending $25</span> until <time itemprop="availabilityEnds" datetime="1985-06-30">30 June 1984</time></span>, supporting—$15. Info: <address>NASFiC, Box 9612, Austin TX 78766</address>.</section>
     </article>
+    <footer>
+      <div id="editor" itemscope itemtype="http://schema.org/Person"></span><span itemprop="name">Anthony Lewis</span><link itemprop="sameAs" href="http://viaf.org/viaf/85827833"/></div>
+      <p>Items for the Calendar should be sent to the Editorial Offices six months in advance of the event.</p>
+    </footer>
   </body>
 </html>
