@@ -18,6 +18,13 @@
   font-style: normal;
   font-stretch: normal;
 }
+@font-face {
+  src: url(../fonts/OPTIDiamond/OPTIDiamond-DemiBold.otf);
+  font-family: "OPTIDiamond-DemiBold";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
 h1, h2 { font-family: "Italia"; }
 h1 {
   font-size: 5em;
@@ -34,12 +41,17 @@ p {
   font-family: "Italia";
   font-weight: normal;
   text-indent: 25px;
+  margin: 0;
+}
+p:first-of-type {
+  text-indent: 0;
 }
 b {
   font-weight: 7;
 }
 sup {
   font-size: x-small;
+  font-weight: 7;
 }
 #retail_packages {
   float: left;
@@ -53,9 +65,19 @@ sup {
   top: -40px;
 }
 #logo {
-  width: 20px;
-  text-transform: uppercase;
+  font-family: "OPTIDiamond-DemiBold";
+  font-size: 3em;
+  width: 5.6em;
+  padding-left: 0.95em;
   margin: 0 auto;
+  border: 1px solid red;
+  text-transform: uppercase;
+  background: url(../logos/trillium_logo_01.svg);
+  background-size: auto 100%;
+}
+#logo sup {
+  font-family: "Italia";
+  vertical-align: 2.1em;
 }
 footer {
   font-family: "Italia";
@@ -77,7 +99,10 @@ footer:before {
     <img src="trillium_bookstack.jpg" />
     <h1>Booted up any good books lately?</h1>
     <h2>Introducing Trillium<sup>™</sup> interactive software</h2>
-    <img src="retail_packages.jpg" src="" /> 
+    <figure>
+      <img id="retail_packages" src="trillium_software_retail_boxes.jpg" />
+      <figcaption>Disks for: Apple II® series and Commodore 64.™</figcaption>
+    </figure>
     <p>Maybe you’ve wondered what kind of software a giant like Bradbury or Crichton or Clarke could dream up. Maybe you’ve wondered what it would be like to be the hero in one of their mind-boggling adventures.</p>
     <p>Or maybe you’ve just wondered if you’d ever see software that knocks you right out of your seat—and literally lands you in a whole new world.</p>
     <p>Well, now you can stop wondering. Because now there’s Trillium. An entire line of games produced in collaboration with the greatest science fiction authors of our century. An entire line of the most challenging, most exciting, most rewarding adventures ever created. Adventures that put you right in the center of action—and completely in command.</p>
