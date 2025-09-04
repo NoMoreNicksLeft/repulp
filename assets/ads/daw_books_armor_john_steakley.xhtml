@@ -4,6 +4,20 @@
       <title>Advertisement: DAW Books - Armor by John Steakley</title>
       <style>
 @charset "utf-8";
+@font-face {
+  src: url(../fonts/AlbertusNovaMT/AlbertusNovaMTMedium.ttf);
+  font-family: "Albertus Medium";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../fonts/AlbertusNovaMT/AlbertusNovaMTBold.otf);
+  font-family: "Albertus Nova";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -14,8 +28,9 @@ html, body {
   height: 82vh;
   padding: 1vh 2.5vw;
   border: 1px solid;
-  border-width: 1.5vh 2.5vw 0 2.5vw;
+  border-width: 1.5vh 2.5vw 1.5vh 2.5vw;
   border-image: linear-gradient(to right, #999 50%, #333 50%) 1;
+  margin-bottom: 0;
 }
 h1 {
   text-align: center;
@@ -23,12 +38,23 @@ h1 {
 }
 h2 {
   text-align: center;
+  font-family: "Albertus Nova";
+  font-size: 5.2vw;
 }
-p {
+p, #price {
   margin: 0;
+  font-family: "Albertus Medium";
+  font-size: large;
 }
 p:not(:first-of-type) {
   text-indent: 1em;
+}
+#x {
+  width: 10vw;
+  display: block;
+  margin: 0 auto;
+  margin-top: -1.5vh;
+  background: white;
 }
       </style>
   </head>
@@ -41,6 +67,7 @@ p:not(:first-of-type) {
       <h1>Armor</h1>
       <h2>By John Steakley</h2>
     </div>
+    <img id="x" src="../logos/daw_books_logo_01.svg" />
     <div>The Exclusive Science Fiction and Fantasy Line Selected by Donald A. Wollheim</div>
     <div>Distributed by New American Library</div>
     <div>DAW Science Fiction</div>
