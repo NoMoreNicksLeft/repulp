@@ -56,8 +56,26 @@ p:not(:first-of-type) {
   width: 10vw;
   display: block;
   margin: 0 auto;
+  margin-top: -9.2vw;
+}
+svg {
+  display: block;
   margin-top: -2.5vw;
-  background: white;
+  width: 16vw;
+  height: 9.2vw;
+  border: 1px solid blue;
+}
+path {
+  stroke-width: 3vh;
+}
+path#left {
+  stroke: #999;
+}
+path#right {
+  stroke: #333;
+}
+#test {
+  stroke-width: 3vh;
 }
       </style>
   </head>
@@ -69,8 +87,15 @@ p:not(:first-of-type) {
       <h1>Armor</h1>
       <h2>By John Steakley</h2>
     </div>
+    
+    <svg viewBox="0 0 200 115">
+      <path id="left"  d="M-29.4 -10 L 21.6 160" />
+      <path id="right" d="M129 -10 L 89 160" />
+      <path fill="white" d="M-29.4 -10 L 21.6 160 L 89 160 L 129 -10"/>
+      <path id="test" stroke="red" d="M120 20 L 20 20" />
+    </svg>
     <img id="x" src="../logos/daw_books_logo_01.svg" />
-    <div>The Exclusive Science Fiction and Fantasy Line Selected by Donald A. Wollheim</div>
+    <div style="float: right; width: 25vw; margin-left: 2.5vw; border: 1px solid red">The Exclusive Science Fiction and Fantasy Line Selected by Donald A. Wollheim</div>
     <div>Distributed by New American Library</div>
     <div>DAW Science Fiction</div>
   </body>
