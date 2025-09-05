@@ -1,19 +1,44 @@
 <?xml version='1.0' encoding='utf-8'?>
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
-    <title>Advertisement: Far Frontiers</title>
+    <title>Quotes: Jerome Lawrence and Robert E. Lee</title>
     <style>
+@font-face {
+  src: url(../../../assets/fonts/KabelITC/ITCKabelStdBold.TTF);
+  font-family: "ITC Kabel Std Bold";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
 body {
-    font-family: "Times New Roman";
+    font-family: "ITC Kabel Std Bold";
     margin-top: 12px;
     border-top: 12px solid transparent;
     border-image: url(../../../assets/decorations/border002.svg) 8 0 8 0 stretch;
 }
+blockquote {
+  background: white;
+  font-size: large;
+}
+blockquote *:first-child:before {
+  content: "⬤";
+  vertical-align: 0.2em;
+  margin-right: 0.4em
+}
+p {
+    margin: 0;
+}
+p:not(:first-child) {
+    text-indent: 1em;
+}
+footer {
+  text-align: right;
+}
     </style>
   </head>
   <body>
-    <blockquote>I believe that man will not merely endure; he will prevail. He is immortal, not because he alone among creatures has an inexhaustible voice, but because he has a soul, a spirit capable of of compassion and sacrifice and endurance.</blockquote>
-    <blockquote>The man who has everything figured out is probably a fool. College examinations notwithstanding, it takes a very smart fella to say “I don’t know the answer.”</blockquote>
-    <footer>Jerome Lawrence and Robert E. Lee</footer>
+    <blockquote><p>I believe that man will not merely endure; he will prevail. He is immortal, not because he alone among creatures has an inexhaustible voice, but because he has a soul, a spirit capable of of compassion and sacrifice and endurance.</p></blockquote>
+    <blockquote><p>The man who has everything figured out is probably a fool. College examinations notwithstanding, it takes a very smart fella to say “I don’t know the answer.”</p></blockquote>
+    <footer><span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jerome Lawrence</span><link itemprop="sameAs" href="http://viaf.org/viaf/113803993"/></span> and <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Robert E. Lee</span><link itemprop="sameAs" href="http://viaf.org/viaf/107548465"/></span></footer>
   </body>
 </html>

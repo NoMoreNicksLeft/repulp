@@ -9,7 +9,7 @@ These are assets that will need to be procured to be able to successfully build 
 * art: Nicholas Jainschigg, top center, story *Lifebomb*, possible duplcate of pg 135 (pg 4)
 * art: Bob Walters, top right, story *Painkillers*, possible duplcate of pg 131 (pg 4)
 * font: title "If You Can't Lick 'Em", unknown Neue Kabel variant, straight-bottomed apostrophe (pg 6)
-* art: unknown, "Rebel's Quest", ad for Bantam Books (pg 9)
+* art: Wayne Barlowe, "Rebel's Quest", ad for Bantam Books (pg 9)
 * vector: Bantam Books rooster logo (pg 9)
 * vector: Bantam Books sf&f logo (pg 9)
 * vector: Bantam Books triple line hr (pg 9)
