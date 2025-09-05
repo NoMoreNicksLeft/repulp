@@ -4,14 +4,21 @@
     <title>Quotes: Jerome Lawrence and Robert E. Lee</title>
     <style>
 @font-face {
-  src: url(../../../assets/fonts/KabelITC/ITCKabelStdBold.TTF);
-  font-family: "ITC Kabel Std Bold";
-  font-weight: bold;
+  src: url(../../../assets/fonts/KabelITC/ITCKabelStdMedium.TTF);
+  font-family: "ITC Kabel Std Medium";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../../../assets/fonts/ITCKabelStdDemi.TTF);
+  font-family: "ITC Kabel Std Book";
+  font-weight: 600;
   font-style: normal;
   font-stretch: normal;
 }
 body {
-    font-family: "ITC Kabel Std Bold";
+    font-family: "ITC Kabel Std Book";
     margin-top: 12px;
     border-top: 12px solid transparent;
     border-image: url(../../../assets/decorations/border002.svg) 8 0 8 0 stretch;
@@ -22,6 +29,7 @@ blockquote {
 }
 blockquote *:first-child:before {
   content: "⬤";
+  font-size: 0.75em;
   vertical-align: 0.2em;
   margin-right: 0.4em
 }
@@ -33,6 +41,8 @@ p:not(:first-child) {
 }
 footer {
   text-align: right;
+  font-family: "ITC Kabel Std Medium";
+  font-size: large;
 }
     </style>
   </head>
