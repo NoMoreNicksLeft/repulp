@@ -50,32 +50,47 @@ p:not(:first-of-type) {
   text-indent: 1em;
 }
 #price {
-  margin-left: 2em;
+  float: right;
 }
-#x {
+#daw_logo {
   width: 10vw;
   display: block;
-  margin: 0 auto;
-  margin-top: -9.2vw;
+  margin: -9.2vw calc(50% - 0vw) 0 calc(50% - 6.7vw);
 }
 svg {
-  display: block;
+  display: inline-block;
   margin-top: -2.5vw;
   width: 16vw;
   height: 9.2vw;
-  border: 1px solid blue;
+  border: 0px solid blue;
+  vertical-align: top;
 }
 path {
-  stroke-width: 3vh;
+  stroke-width: 31.25;
 }
 path#left {
   stroke: #999;
 }
 path#right {
   stroke: #333;
+
 }
-#test {
-  stroke-width: 3vh;
+#new_american_library span, #selected_by span, #dsw {
+  text-transform: uppercase;
+}
+#dsw, #selected_by  {
+  font-family: "Albertus Medium";
+}
+#new_american_library {
+  font-family: "Albertus Nova";
+  display: inline-block;
+  width: 37vw
+}
+#dsw {
+  text-align: center;
+}
+#selected_by {
+  line-height: 1
 }
       </style>
   </head>
@@ -87,16 +102,14 @@ path#right {
       <h1>Armor</h1>
       <h2>By John Steakley</h2>
     </div>
-    
+    <div id="selected_by" style="display: inline-block; width: 37vw; margin-left: 2.5vw; border: 1px solid red; text-align: right;">The Exclusive Science Fiction and Fantasy Line Selected by <span>Donald A. Wollheim</span></div>
     <svg viewBox="0 0 200 115">
-      <path id="left"  d="M-29.4 -10 L 21.6 160" />
-      <path id="right" d="M129 -10 L 89 160" />
-      <path fill="white" d="M-29.4 -10 L 21.6 160 L 89 160 L 129 -10"/>
-      <path id="test" stroke="red" d="M120 20 L 20 20" />
+      <path fill="white" d="M8.77 0 L 47.52 150 L 152.48 150 L 191.23 0"/>
+      <path id="left"  d="M8.77 0 L 47.52 150" />
+      <path id="right" d="M191.23 0 L 152.48 150" />
     </svg>
-    <img id="x" src="../logos/daw_books_logo_01.svg" />
-    <div style="float: right; width: 25vw; margin-left: 2.5vw; border: 1px solid red">The Exclusive Science Fiction and Fantasy Line Selected by Donald A. Wollheim</div>
-    <div>Distributed by New American Library</div>
-    <div>DAW Science Fiction</div>
+    <div id="new_american_library" style="">Distributed by <span>New American Library</span></div>
+    <img id="daw_logo" src="../logos/daw_books_logo_01.svg" />
+    <div id="dsw"><u>DAW</u> Science Fiction</div>
   </body>
 </html>

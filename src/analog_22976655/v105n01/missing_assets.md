@@ -3,6 +3,7 @@ These are assets that will need to be procured to be able to successfully build 
 * font: registered trademark symbol, unknown (front cover)
 * photograph: stack of books, ad for Trillium Corp. (pg 1)
 * photograph/composite: stack of software packages, ad for Trillium Corp. (pg 2)
+* screenshot: *Fahrenheit 451* video game, unknown platform (pg 2)
 * font: "ARMOR", ad for Baen Books (pg 3)
 * art: Judith Mitchell, top left, story *A Touch Beyond*, possible duplicate of pg 72 (pg 4)
 * art: Nicholas Jainschigg, top center, story *Lifebomb*, possible duplcate of pg 135 (pg 4)
