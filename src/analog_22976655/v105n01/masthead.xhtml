@@ -1,0 +1,231 @@
+<?xml version='1.0' encoding='utf-8'?>
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <title>Masthead</title>
+    <style>
+@font-face {
+  src: url(../../../assets/fonts/KabelITC/ITCKabelStdBold.TTF);
+  font-family: "ITC Kabel Std Bold";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+}
+@font-face {
+  src: url(../../../assets/fonts/ITCKabelStdDemi.TTF);
+  font-family: "ITC Kabel Std Book";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+html, body {
+  padding: 0;
+  font-family: "ITC Kabel Std Book";
+  height: 100%;
+}
+#outer_frame {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  gap: 2vw;
+  width: 90vw;
+  margin: 2em 5vw;
+  border: 2px solid black;
+}
+#credits {
+  margin: 0.75em 1em 0.25em 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#staff {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+#staff div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#staff div span:first-of-type {
+  flex-shrink: 0;
+}
+#management {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+#offices {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 0.75em;
+}
+#offices > h3 {
+  flex-basis: 100%;
+}
+#offices h3 {
+  font-family: "ITC Kabel Std Bold";
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+#offices div {
+    text-align: center;
+}
+.vert_divider {
+  margin: 0 1em;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  border: 1px solid black;
+  align-self: stretch;
+}
+.horiz_divider {
+  width: 80%;
+  border: 1px solid black;
+}
+a {
+  pointer-events: none;
+  color: inherit;
+  text-decoration: inherit;
+}
+span[itemprop="name"] {
+  font-family: "ITC Kabel Std Bold";
+  margin-right: 1em;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#staff .position:before {
+  font-family: "ITC Kabel Std Bold";
+  margin-right: 0.15em;
+  content: "................................................................................";
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 1.9em;
+  display: inline-block;
+  vertical-align: top;
+  flex-grow: 1;
+}
+#staff .position {
+  display: flex;
+  flex-grow: 1;
+  text-align: right;
+}
+#management .position, div[itemprop="name"] {
+  text-align: center;
+}
+#management div[itemtype="http://schema.org/Person"] {
+  margin: 0.75em;
+}
+div[itemprop="name"] {
+  font-family: "ITC Kabel Std Bold";
+  text-transform: uppercase;
+  font-weight: bold;
+}
+    </style>
+  </head>
+  <body>
+    <div id="outer_frame">
+      <div id="credits">
+        <div id="staff">
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Stanley Schmidt</span>
+            <link itemprop="sameAs" href="http://viaf.org/viaf/92540469"/>
+            <span class="position" itemprop="jobTitle">Editor</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Shelley Frier</span>
+            <span class="position" itemprop="jobTitle">Editorial Assistant</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Ralph Rubino</span>
+            <span class="position" itemprop="jobTitle">Corporate Art Director</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Gerard Hawkins</span>
+            <span class="position" itemprop="jobTitle">Associate Art Director</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Terri Czeczko</span>
+            <span class="position" itemprop="jobTitle">Art Editor</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Carl Bartee</span>
+            <span class="position" itemprop="jobTitle">Director of Manufacturing</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Carole Dixon</span>
+            <span class="position" itemprop="jobTitle">Production Manager</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Lauren C. Council</span>
+            <span class="position" itemprop="jobTitle">Production Assistant</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Cynthia Manson</span><link itemprop="sameAs" href="http://viaf.org/viaf/50680738"/>
+            <span class="position" itemprop="jobTitle">Subsidiary Rights Manager</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Barbara Bazyn</span><link itemprop="sameAs" href="http://viaf.org/viaf/8164354804713002210"/>
+            <span class="position" itemprop="jobTitle">Manager, Contracts & Permissions</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Michael Dillon</span>
+            <span class="position" itemprop="jobTitle">Circulation Director, Retail Marketing</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Kathy Tully-Cestaro</span>
+            <span class="position" itemprop="jobTitle">Circulation Manager/Subscriptions</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Paul Pearson</span>
+            <span class="position" itemprop="jobTitle">Newsstand Operations Manager</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">William F. Battista</span>
+            <span class="position" itemprop="jobTitle">Advertising Director</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Jamie Fillon</span>
+            <span class="position" itemprop="jobTitle">Advertising Manager</span>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <span itemprop="name">Irene Bozoki</span>
+            <span class="position" itemprop="jobTitle">Classified Ad Manager</span>
+          </div>
+        </div>
+        <div class="vert_divider"></div>
+        <div id="management">
+          <div itemscope itemtype="http://schema.org/Person">
+            <div itemprop="name">Joel Davis</div>
+            <div class="position" itemprop="jobTitle">President & Publisher</div>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <div itemprop="name">Leonard F. Pinto</div>
+            <div class="position" itemprop="jobTitle">Vice President & General Manager</div>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <div itemprop="name">Leonard H. Habas</div>
+            <div class="position" itemprop="jobTitle">Vice President Circulation</div>
+          </div>
+          <div itemscope itemtype="http://schema.org/Person">
+            <div itemprop="name">Fred Edinger</div>
+            <div class="position" itemprop="jobTitle">Vice President Finance</div>
+          </div>
+        </div>
+      </div>
+      <div class="horiz_divider"></div>
+      <div id="offices">
+        <h3>Advertising Offices</h3>
+        <div><h3>Chicago</h3><a href="tel:13123460712">(312) 346-0712</a></div>
+        <div><h3>New York</h3><a href="tel:12125579100">(212) 557-9100</a></div>
+        <div><h3>Los Angeles</h3><a href="tel:12137853114">(213) 785-3114</a></div>
+      </div>
+    </div>
+  </body>
+</html>
