@@ -42,7 +42,7 @@ These are assets that will need to be procured to be able to successfully build 
 * cover: *The Alien Race*, Signet Books (pg 51)
 * vector: Signet logo, (pg 51)
 * vector: Signet Books 3d-ish book outline (pg 51)
-* art: Doug Beekman, story *The Plague Star* (pg 53)
+* <s>art: Doug Beekman, story *The Plague Star* (pg 53)</s>
 
 * art: Judith Mitchell, two page spread, story *A Touch Beyond* (pg 72-73)
 
