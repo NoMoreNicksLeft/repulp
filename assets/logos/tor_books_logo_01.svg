@@ -2,16 +2,18 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="175"
-   height="190"
-   viewBox="0 0 46.302082 50.270833"
+   width="176"
+   height="191"
+   viewBox="0 0 46.566665 50.535416"
    version="1.1"
    id="svg1"
    xml:space="preserve"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:svg="http://www.w3.org/2000/svg"><defs
      id="defs1" /><g
-     id="layer1"><path
+     id="layer1"
+     style="stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+     transform="translate(0.13344693,0.1322915)"><path
        id="path2"
-       style="opacity:1;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.264583px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 15.892255,16.293398 1.749044,2.1863 5.356441,-13.16154 6.82127,18.91152 1.63972,-2.77661 9.16061,21.40391 c 0.91327,2.21794 -3.59554,7.25853 -5.3783,7.25853 H 10.688856 c -1.7804369,0 -6.0017999,-4.99167 -5.0722229,-7.25853 z M 12.992157,0 C 1.1918091,0 -3.7600459,26.015508 3.1684671,41.151498 l 3.678329,-7.91942 C 3.4509591,21.424308 7.6805431,4.46226 16.892694,4.46226 h 12.361523 c 9.21215,0 13.44173,16.962048 10.04589,28.769818 l 3.67833,7.91942 C 49.906957,26.015508 44.955097,0 33.154747,0 Z" /></g></svg>
