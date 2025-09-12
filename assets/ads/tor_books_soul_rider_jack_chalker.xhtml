@@ -37,14 +37,17 @@ html, body {
   float: right;
   margin: 1vh 2.5vw;
   width: 50vw;
-  border: 1px solid yellow
 }
 #lead_in {
   font-size: 4vw;
   line-height: 0.9;
   text-align: center;
-  width: 26vw;
+  width: 30vw;
   margin: 1.5em 1em 0 1.9em;
+}
+span[itemprop="name"] {
+  text-transform: uppercase;
+  font-size: 5vw;
 }
 #book_title {
   font-weight: 500;
@@ -53,13 +56,23 @@ html, body {
   text-align: center;
   line-height: 0.9;
   padding: 0.15em 0;
-  margin: 0 1em;
   display: inline-block;
   width: 30vw;
   border: 6px double black;
   border-left: 0;
   border-right: 0;
-  outline: 1px solid red;
+  margin-top: 0.25em;
+}
+.book_list {
+  border-top: 2px solid black;
+  width: 95%;
+  margin: 0px auto;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2.5vw;
+}
+.book_list:last-of-type {
+  margin-bottom: 0.75em;
 }
 h3#tor {
   font-weight: 500;
@@ -79,10 +92,13 @@ h3#tor {
     <h2 id="coming">Coming in January from<div>Tor Books</div></h2>
     <div id="outer_frame">
       <img id="nameplate_img" src="../logos/tor_books_soul_rider_nameplate.svg" />
-      <h3 id="lead_in">The triumphant conclusion of <span>Jack L. Chalker’s</span> bestselling new series…</h3>
-      <h2 id="book_title">Masters of Flux & Anchor</h2>
+      <h3 id="lead_in">The triumphant conclusion of <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jack L. Chalker’s</span><link itemprop="sameAs" href="http://viaf.org/viaf/2591777"/></span> bestselling new series…<div id="book_title">Masters of Flux & Anchor</div></h3>
       <p>Now, learn the hidden truth of the world of Flux and Anchor.</p>
       <p><span>Soul Rider</span>—the stunning creationof a master storyteller is now complete. Look for it. Read it. You’ll never forget it.</p>
+      <div class="book_list">Soul Rider Book One: Spirits of Flux & Anchor</div>
+      <div class="book_list">Soul Rider Book Two: Empires of Flux & Anchor</div>
+      <div class="book_list">Soul Rider Book Three: Masters of Flux & Anchor</div>
+      <div class="book_list">All $2.95</div>
     </div>
     <h3 id="tor">Tor Books<img id="tor_logo" src="../logos/tor_books_logo_01.svg" />We're Part of the Future</h3>
   </body>
