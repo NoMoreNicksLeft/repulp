@@ -11,6 +11,13 @@
   font-style: normal;
   font-stretch: condensed;
 }
+@font-face {
+  src: url(../fonts/BenguiatITC/BenguiatITCBoldCondensed.ttf);
+  font-family: "ITC Benguiat Condensed";
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: condensed;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -21,7 +28,7 @@ html, body {
   text-align: center;
   text-transform: uppercase;
   font-size: 5.6vw;
-  margin-bottom: 0;
+  margin: 0 auto;
 }
 #coming div {
   font-size: 7vw;
@@ -40,12 +47,13 @@ html, body {
 }
 #lead_in {
   font-size: 4vw;
+  font-weight: 500;
   line-height: 0.9;
   text-align: center;
   width: 30vw;
   margin: 1.5em 1em 0 1.9em;
 }
-span[itemprop="name"] {
+span[itemtype="http://schema.org/Person"] span[itemprop="name"] {
   text-transform: uppercase;
   font-size: 5vw;
 }
@@ -63,6 +71,22 @@ span[itemprop="name"] {
   border-right: 0;
   margin-top: 0.25em;
 }
+#hidden_truth {
+  font-size: 2.7vw;
+  text-align: center;
+  width: 95%;
+  margin: 1em auto 0 auto;
+}
+#stunning_creation {
+  font-size: 2.7vw;
+  border-top: 2px solid black;
+  text-align: center;
+  width: 95%;
+  margin: 0.25em auto;
+}
+#series_title {
+  text-transform: uppercase;
+}
 .book_list {
   border-top: 2px solid black;
   width: 95%;
@@ -70,6 +94,7 @@ span[itemprop="name"] {
   text-align: center;
   text-transform: uppercase;
   font-size: 2.5vw;
+  font-weight: bold;
 }
 .book_list:last-of-type {
   margin-bottom: 0.75em;
@@ -89,17 +114,20 @@ h3#tor {
       </style>
   </head>
   <body>
-    <h2 id="coming">Coming in January from<div>Tor Books</div></h2>
+    <h2 id="coming">Coming in January from<div itemscope itemtype="http://schema.org/Organization"><span itemprop="name">Tor Books</span><link itemprop="sameAs" href="http://viaf.org/viaf/140683811"/></div></h2>
     <div id="outer_frame">
       <img id="nameplate_img" src="../logos/tor_books_soul_rider_nameplate.svg" />
       <h3 id="lead_in">The triumphant conclusion of <span itemscope itemtype="http://schema.org/Person"><span itemprop="name">Jack L. Chalker’s</span><link itemprop="sameAs" href="http://viaf.org/viaf/2591777"/></span> bestselling new series…<div id="book_title">Masters of Flux & Anchor</div></h3>
-      <p>Now, learn the hidden truth of the world of Flux and Anchor.</p>
-      <p><span>Soul Rider</span>—the stunning creationof a master storyteller is now complete. Look for it. Read it. You’ll never forget it.</p>
+      <p id="hidden_truth">Now, learn the hidden truth of the world of Flux and Anchor.</p>
+      <p id="stunning_creation"><span id="series_title">Soul Rider</span>—the stunning creation of a master storyteller is now complete. Look for it. Read it. You’ll never forget it.</p>
+      <img src="blah" />
+      <img src="blah" />
+      <img src="blah" />
       <div class="book_list">Soul Rider Book One: Spirits of Flux & Anchor</div>
       <div class="book_list">Soul Rider Book Two: Empires of Flux & Anchor</div>
       <div class="book_list">Soul Rider Book Three: Masters of Flux & Anchor</div>
       <div class="book_list">All $2.95</div>
     </div>
-    <h3 id="tor">Tor Books<img id="tor_logo" src="../logos/tor_books_logo_01.svg" />We're Part of the Future</h3>
+    <h3 id="tor">Tor Books<img id="tor_logo" src="../logos/tor_books_logo_01.svg" />We’re Part of the Future</h3>
   </body>
 </html>
