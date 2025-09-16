@@ -23,7 +23,7 @@ These are assets that will need to be procured to be able to successfully build 
 * cover: Doug Beekman, two page spread, story *The Plague Star* (pg 14-15)
 * vector: *Soul Rider*, nameplate, ad for Tor Books (pg 19)
 * font: ITC Benguiat (99.9%), medium condensed and others (pg 19)
-* cover: *Spirits of Flux & Anchor*, Tor Books (pg 19)
+* cover: Dawn Wilson, *Spirits of Flux & Anchor*, Tor Books (pg 19)
 * cover: *Empires of Flux & Anchor*, Tor Books (pg 19)
 * cover: *Masters of Flux & Anchor*, Tor Books (pg 19)
 * vector: Tor Books 3d-ish book outline (pg 19)

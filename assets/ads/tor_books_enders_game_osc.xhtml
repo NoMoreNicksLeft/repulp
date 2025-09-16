@@ -26,19 +26,73 @@ h2 {
   margin: 1vh auto 0 auto;
   border: 1px solid white;
 }
+#top_oblique, #bottom_oblique {
+  display: block;
+  margin: 0 auto;
+}
+#top_oblique {
+  width: 94vw;
+  height: 2vw;
+}
+#bottom_oblique {
+  width: 90vw;
+  height: 3vw;
+  z-index: 0;
+}
+path {
+  stroke: white;
+  stroke-width: 1.5px;
+}
 #outer_frame {
   width: 90vw;
-  height: 85vh;
-  margin: 3vw auto 0 auto;
+  height: 75vh;
+  margin: 0 auto;
   border: 1px solid white;
   text-align: center;
+}
+#enders_game_logo {
+  margin: 2vw 0 0 8.5vw;;
+  width: 73vw;
+  float: left;
+  shape-outside: url(../logos/tor_books_enders_game_nameplate.svg);
+}
+.book_title, .quotee {
+  text-transform: uppercase;
+}
+.review {
+  margin: 1em 12vw;
+}
+.review:first-of-type::before {
+  content: "";
+  display: block;
+  height: 40vw;
+  /* border: 1px solid red */
+}
+#cover_art {
+  display: block;
+  margin: 1em auto;
+  width: 20vw;
+  height: 60vw;
+  position: relative;
+  z-index: 5;
+  border: 1px solid white;
 }
     </style>
   </head>
   <body>
     <h2>A Novel by Orson Scott Card</h2>
+    <svg id="top_oblique" viewBox="0 0 94 2">
+      <path d="M-5 -5 L 7 7" vector-effect="non-scaling-stroke" />
+      <path d="M99 -5 L 87 7" vector-effect="non-scaling-stroke" />
+    </svg>
     <div id="outer_frame">
-      <img src="../logos/tor_books_enders_game_nameplate.svg" />
+      <img id="enders_game_logo" src="../logos/tor_books_enders_game_nameplate.svg" />
+      <span class="review">“<span class="book_title">Ender’s Game</span> will still be finding new readers when ninety-nine percent of the books published this year are completely forgotten.”<div class="quotee">—Gene Wolfe</div></span>
+      <span class="review">“In this novel that tells the full and compelling story of Ender, Card fulfills his early promise… and more.”<div class="quotee">—Ben Bova</div></span>
+      <img id="cover_art" src="dsada"/>
     </div>
+    <svg id="bottom_oblique" viewBox="0 0 90 3">
+      <path d="M-5 -5 L 2.5 2.5 L 87.5 2.5 L 95 -5" vector-effect="non-scaling-stroke" />
+    </svg>
   </body>
 </html>
