@@ -16,13 +16,13 @@ These are assets that will need to be procured to be able to successfully build 
 * cover: *The Copper Crown*, Bluejay Books (pg 12)
 * cover: *Master of Space and Time*, Bluejay Books (pg 12)
 * cover: *Dr. Bloodmoney*, Bluejay Books (pg 12)
-* vector: Bluejay Books logo (pg 12)
+* <s>vector: Bluejay Books logo (pg 12)</s>
 * cover: *A Coming of Age*, Bluejay Books (pg 13)
 * cover: *It Cam from Schenectady*, Bluejay Books (pg 13)
 * cover: *The Dreaming Jewels*, Bluejay Books (pg 13)
 * cover: Doug Beekman, two page spread, story *The Plague Star* (pg 14-15)
-* vector: *Soul Rider*, nameplate, ad for Tor Books (pg 19)
-* font: ITC Benguiat (99.9%), medium condensed and others (pg 19)
+* <s>vector: *Soul Rider*, nameplate, ad for Tor Books (pg 19)</s>
+* <s>font: ITC Benguiat (99.9%), medium condensed and others (pg 19)</s>
 * cover: Dawn Wilson, *Spirits of Flux & Anchor*, Tor Books (pg 19)
 * cover: *Empires of Flux & Anchor*, Tor Books (pg 19)
 * cover: *Masters of Flux & Anchor*, Tor Books (pg 19)
@@ -33,7 +33,7 @@ These are assets that will need to be procured to be able to successfully build 
 * art: siege engine, ad for Avalon Hill Game Co. (pg 27)
 * vector: "AH" logo, ad for Avalon Hill Game Co. (pg 27)
 * photograph: *The Saga of Pliocene* book set, Houghton Mifflin Company ad (pg 31)
-* photograph: *Crewel Lye*, Del Rey book ad (pg 39)
+* photograph: *Crewel Lyes*, Del Rey book ad (pg 39)
 * vector: Del Rey logo (pg 39)
 * art: *Magician*, Doubleday ad, art by Braldt Bralds (pg 43)
 * font: multiple unknown (pg 43)
