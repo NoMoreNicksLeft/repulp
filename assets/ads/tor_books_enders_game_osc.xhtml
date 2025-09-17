@@ -10,6 +10,13 @@
   font-style: normal;
   font-stretch: normal;
 }
+@font-face {
+  src: url(../fonts/Helvetica/HelveticaCondensedRegular.ttf);
+  font-family: "Helvetica Condensed";
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: condensed;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -39,43 +46,77 @@ h2 {
   height: 3vw;
   z-index: 0;
 }
+#bottom_oblique {
+  width: 90vw;
+  height: 3vw;
+  z-index: 0;
+}
+#cover_oblique {
+  width: 50vw;
+  height: 3vw;
+}
 path {
   stroke: white;
   stroke-width: 1.5px;
 }
 #outer_frame {
   width: 90vw;
-  height: 75vh;
+  height: 125vw;
   margin: 0 auto;
   border: 1px solid white;
   text-align: center;
 }
 #enders_game_logo {
-  margin: 2vw 0 0 8.5vw;;
+  margin: 2vw 0 0 8.5vw;
   width: 73vw;
   float: left;
   shape-outside: url(../logos/tor_books_enders_game_nameplate.svg);
+  border: 1px solid blue;
+  overflow-x: visible;
+}
+#enders_game_logo::after {
+  content: "aaaaaaaa";
+  display: block;
+  height: 60vw;
+  margin-left: 2vw;
+  border: 1px solid green;
+  float: left;
+  z-index: 10;
+  position:relative;
+  /* shape-outside: polygon(); */
+  background: gray;
 }
 .book_title, .quotee {
   text-transform: uppercase;
 }
 .review {
-  margin: 1em 12vw;
+  font-family: "Helvetica Condensed";
+  font-size: 2.3vw;
+  margin: 1em 15vw 0 15vw;
 }
-.review:first-of-type::before {
+span.review:first-of-type::before {
   content: "";
   display: block;
-  height: 40vw;
-  /* border: 1px solid red */
+  height: 44vw;
+  border: 1px solid red
 }
-#cover_art {
-  display: block;
-  margin: 1em auto;
-  width: 20vw;
-  height: 60vw;
+span.review:first-of-type {
+  border: 1px solid yellow;
+}
+#cover_border {
+  margin: 1em auto 0 auto;
+  width: 50vw;
+  height: 56vw;
   position: relative;
   z-index: 5;
   border: 1px solid white;
+  overflow: hidden;
+}
+#cover_art {
+  width: 54vw;
+  object-fit: cover;
+  object-position: -2.1vw -20vw;
+  filter: saturate(0) brightness(36%);
 }
     </style>
   </head>
@@ -88,8 +129,13 @@ path {
     <div id="outer_frame">
       <img id="enders_game_logo" src="../logos/tor_books_enders_game_nameplate.svg" />
       <span class="review">“<span class="book_title">Ender’s Game</span> will still be finding new readers when ninety-nine percent of the books published this year are completely forgotten.”<div class="quotee">—Gene Wolfe</div></span>
-      <span class="review">“In this novel that tells the full and compelling story of Ender, Card fulfills his early promise… and more.”<div class="quotee">—Ben Bova</div></span>
-      <img id="cover_art" src="dsada"/>
+      <div class="review">“In this novel that tells the full and compelling story of Ender, Card fulfills his early promise… and more.”<div class="quotee">—Ben Bova</div></div>
+      <div id="cover_border">
+        <img id="cover_art" src="../images/2024_CKS_23204_0030_000(ender8217s_game_original_dust-jacket_artwork_john_harris074135).jpg"/>
+      </div>
+      <svg id="cover_oblique" viewBox="0 0 50 3">
+        <path d="M-5 -5 L 2.5 2.5 L 47.5 2.5 L 55 -5" vector-effect="non-scaling-stroke" />
+      </svg>
     </div>
     <svg id="bottom_oblique" viewBox="0 0 90 3">
       <path d="M-5 -5 L 2.5 2.5 L 87.5 2.5 L 95 -5" vector-effect="non-scaling-stroke" />
