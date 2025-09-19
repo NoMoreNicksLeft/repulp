@@ -25,7 +25,7 @@ html, body {
 }
 h2 {
   font-family: "NimbuSanTBolCon";
-  font-size: 9vw;
+  font-size: 7vw;
   font-synthesis: none;
   text-transform: uppercase;
   text-align: center;
@@ -65,44 +65,32 @@ path {
   margin: 0 auto;
   border: 1px solid white;
   text-align: center;
+  background: url(../logos/tor_books_enders_game_nameplate.svg) 8.5vw 2vw / 73vw 49.79vw no-repeat;
 }
-#enders_game_logo {
-  margin: 2vw 0 0 8.5vw;
-  width: 73vw;
+#left_wrap, #right_wrap {
+  height: 51.79vw;
+}
+#left_wrap {
   float: left;
-  shape-outside: url(../logos/tor_books_enders_game_nameplate.svg);
-  border: 1px solid blue;
-  overflow-x: visible;
+  width: 59%;
+  shape-outside: polygon(0 0, 100% 0, 100% 83%, 83% 100%, 0 100%, 0 0);
 }
-#enders_game_logo::after {
-  content: "aaaaaaaa";
-  display: block;
-  height: 60vw;
-  margin-left: 2vw;
-  border: 1px solid green;
-  float: left;
-  z-index: 10;
-  position:relative;
-  /* shape-outside: polygon(); */
-  background: gray;
+#right_wrap {
+  float: right;
+  width: 41%;
+  shape-outside: polygon(0 0, 100% 0, 100% 100%, 63% 100%, 47% 84%, 0 84%,  0 0);
 }
+
 .book_title, .quotee {
   text-transform: uppercase;
 }
 .review {
   font-family: "Helvetica Condensed";
   font-size: 2.3vw;
+}
+div.review {
   margin: 1em 15vw 0 15vw;
-}
-span.review:first-of-type::before {
-  content: "";
-  display: block;
-  height: 44vw;
-  border: 1px solid red
-}
-span.review:first-of-type {
-  border: 1px solid yellow;
-}
+} 
 #cover_border {
   margin: 1em auto 0 auto;
   width: 50vw;
@@ -118,6 +106,40 @@ span.review:first-of-type {
   object-position: -2.1vw -20vw;
   filter: saturate(0) brightness(36%);
 }
+#details_and_cover {
+  font-family: "Helvetica Condensed";
+  height: 55vw;
+  overflow-y: visible;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+#publisher {
+  text-align: center;
+  flex: 0 4 12vw;
+  border: 1px solid red;
+}
+#publisher img {
+  width: 3vw;
+  filter: invert(1);
+}
+#tor {
+  text-transform: uppercase;
+}
+#details {
+  text-transform: uppercase;
+  flex: 0 4 12vw;
+}
+#st_martins {
+  border-top: 1px solid white;
+}
+.visually-hidden {
+  height: 0;
+  margin: 0;
+  color: rgba(0, 0, 0, 0);
+  user-select: none;
+}
     </style>
   </head>
   <body>
@@ -127,12 +149,29 @@ span.review:first-of-type {
       <path d="M99 -5 L 87 7" vector-effect="non-scaling-stroke" />
     </svg>
     <div id="outer_frame">
-      <img id="enders_game_logo" src="../logos/tor_books_enders_game_nameplate.svg" />
+      <h1 class="visually-hidden">Ender’s Game</h1>
+      <!-- These following tags aren't semantic, but this is otherwise
+       impossible. Even future CSS techniques seem not up to the task.-->
+      <div id="left_wrap"></div>
+      <div id="right_wrap"></div>
       <span class="review">“<span class="book_title">Ender’s Game</span> will still be finding new readers when ninety-nine percent of the books published this year are completely forgotten.”<div class="quotee">—Gene Wolfe</div></span>
       <div class="review">“In this novel that tells the full and compelling story of Ender, Card fulfills his early promise… and more.”<div class="quotee">—Ben Bova</div></div>
-      <div id="cover_border">
-        <img id="cover_art" src="../images/2024_CKS_23204_0030_000(ender8217s_game_original_dust-jacket_artwork_john_harris074135).jpg"/>
+      <div id="details_and_cover">
+        <div id="publisher">
+          <img src="../logos/tor_books_logo_01.svg" />
+          <div id="tor">A Tor hardcover we’re part of the future</div>
+          <div id="st_martins">Distributed by St. Martin’s Press</div>
+        </div>
+        <div id="cover_border">
+          <img id="cover_art" src="../images/2024_CKS_23204_0030_000(ender8217s_game_original_dust-jacket_artwork_john_harris074135).jpg"/>
+        </div>
+        <div id="details">
+          <div id="available">On sale in December</div>
+          <div id="pages">352 pages</div>
+          <div id="price">$13.95</div>
+        </div>
       </div>
+      
       <svg id="cover_oblique" viewBox="0 0 50 3">
         <path d="M-5 -5 L 2.5 2.5 L 47.5 2.5 L 55 -5" vector-effect="non-scaling-stroke" />
       </svg>
