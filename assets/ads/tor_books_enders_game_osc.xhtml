@@ -108,31 +108,41 @@ div.review {
 }
 #details_and_cover {
   font-family: "Helvetica Condensed";
+  font-size: 2vw;
+  margin-top: 1em;
   height: 55vw;
   overflow-y: visible;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  padding: 0 5vw;
 }
 #publisher {
   text-align: center;
   flex: 0 4 12vw;
-  border: 1px solid red;
 }
 #publisher img {
-  width: 3vw;
+  width: 2.5vw;
   filter: invert(1);
 }
 #tor {
   text-transform: uppercase;
 }
+#tor, #available {
+  margin-bottom: 0.25em;
+}
 #details {
   text-transform: uppercase;
+  max-width: 9vw;
   flex: 0 4 12vw;
 }
-#st_martins {
+#pages {
+  /* overflow-x: visible; */
+}
+#st_martins, #pages {
   border-top: 1px solid white;
+  padding-top: 0.25em;
 }
 .visually-hidden {
   height: 0;
