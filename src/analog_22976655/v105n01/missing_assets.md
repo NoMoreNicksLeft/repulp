@@ -33,6 +33,7 @@ These are assets that will need to be procured to be able to successfully build 
 * art: siege engine, ad for Avalon Hill Game Co. (pg 27)
 * vector: "AH" logo, ad for Avalon Hill Game Co. (pg 27)
 * photograph: *The Saga of Pliocene* book set, Houghton Mifflin Company ad (pg 31)
+* vector: Houghton Mifflin dolphin logo (page 31)
 * photograph: *Crewel Lyes*, Del Rey book ad (pg 39)
 * vector: Del Rey logo (pg 39)
 * art: *Magician*, Doubleday ad, art by Braldt Bralds (pg 43)

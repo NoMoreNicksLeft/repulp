@@ -20,3 +20,18 @@ The basic requirements as I see them are
 * "Continued on page 118"s
 
 There are many challenges. Finding pristine scans of original artwork and photographs, many typefaces from the print era have either not yet been digitized or have been digitized insufficiently, many issues will require dozens of hours of vectorization of trivial graphical elements, and the importance and extent of semantic markup remains unexplored. If anyone wants to help, there are plenty of tasks that don't require coding or art skill, but I'm content that this may be a one man job even if I could use the help.
+
+## Unanswered questions
+
+### What is the minimum resolution for book covers (and video game box art) present in some advertisements?
+
+Analog magazine would nearly constantly have ads from Science Fiction Book Club, and these ads could have as many as 30 thumbnail-sized book covers. Additionally many issues would have a dozen or more ads for single titles all featuring the book covers (again, in thumbnail-sized images). With the high-resolution images sometimes weighing in at 1-4mb in size, x45 per issue and all of them JPEG format (and essentially uncompressible in EPUB's zip compression), those file sizes are impractical. We don't need resolutions of 2400h+, and for something that might've only been one inch tall in print it's absurd. Can we get away with a 100px tall png?
+
+### How closely do fonts need to match the original print?
+
+I've already stumbled across many examples, but they're all so irritating. An interior typeface in Analog can be matched perfectly... except that its apostrophe has a flat bottom while the matching font has an angled bottom. 1970s Galaxy covers use Staundel Xenotype J (or a variant) that can be matched perfectly except for the uppercase S (in "Science Fiction"). Can those slight mismatches be ignored?
+
+### How should two page spread interior art be handled?
+
+Ebooks do not have two pages side by side (excepting iPad apps might do this in landscape mode?). The artwork was always meant to be viewed together, whole, and at best it is an inferior viewing experience to see it chopped in halves and shown one after the other. At worst, it is incomprehensible. While text content (usually titles) can be normalized and presented on a single page, artwork should remain intact. Should it shrink to fit on a single page? The orientation doesn't always work for that strategy.
+
