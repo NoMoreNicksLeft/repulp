@@ -25,6 +25,9 @@
   font-style: normal;
   font-stretch: normal;
 }
+body {
+  margin: 0 3vw;
+}
 h1, h2 { font-family: "Italia"; }
 h1 {
   font-size: 5em;
@@ -35,16 +38,18 @@ h1 {
 h2 {
   letter-spacing: -0.05em;
   font-weight: 7;
-  text-indent: 25px;
+  text-indent: 1.5em;
 }
 p {
   font-family: "Italia";
   font-weight: normal;
-  text-indent: 25px;
+  font-size: 3.2vw;
+  text-indent: 1.5em;
   margin: 0;
 }
 p:first-of-type {
   text-indent: 0;
+  margin-top: 1.5em;
 }
 b {
   font-weight: 7;
@@ -52,6 +57,29 @@ b {
 sup {
   font-size: x-small;
   font-weight: 7;
+}
+figure {
+  float: left;
+  shape-outside: polygon(0 0, 64% 0, 52% 100%, 0 100%, 0 0);
+}
+figure img {
+  height: 20vw;
+  filter: saturate(0) brightness(80%);
+}
+#shadowkeep {
+  transform: rotate(23.3deg) translate(156%, -45%);
+}
+#amazon {
+  transform: rotate(14.3deg) translate(18%, -8%);
+}
+#dragonworld {
+  transform: rotate(3deg) translate(-127%, -4%);
+}
+#rendevouz {
+  transform: rotate(-4.5deg) translate(-270%, -26%);
+}
+#fahrenheit451 {
+  transform: rotate(-25.8deg) translate(-370%, -142%);
 }
 #retail_packages {
   float: left;
@@ -66,18 +94,17 @@ sup {
 }
 #logo {
   font-family: "OPTIDiamond-DemiBold";
-  font-size: 3em;
+  font-size: 7vw;
   width: 5.6em;
   padding-left: 0.95em;
   margin: 0 auto;
-  border: 1px solid red;
   text-transform: uppercase;
   background: url(../logos/trillium_logo_01.svg);
   background-size: auto 100%;
 }
 #logo sup {
   font-family: "Italia";
-  vertical-align: 2.1em;
+  vertical-align: 4.1vw;
 }
 footer {
   font-family: "Italia";
@@ -100,7 +127,11 @@ footer:before {
     <h1>Booted up any good books lately?</h1>
     <h2>Introducing Trillium<sup>™</sup> interactive software</h2>
     <figure>
-      <img id="retail_packages" src="trillium_software_retail_boxes.jpg" />
+      <img id="shadowkeep" src="../images/trillium_corp_shadowkeep_cover_med.png" />
+      <img id="amazon" src="../images/trillium_corp_amazon_cover_med.png" />
+      <img id="dragonworld" src="../images/trillium_corp_dragonworld_cover_med.png" />
+      <img id="rendevouz" src="../images/trillium_corp_rendevous_with_rama_cover_med.png" />
+      <img id="fahrenheit451" src="../images/trillium_corp_fahrenheit_451_cover_med.png" />
       <figcaption>Disks for: Apple II® series and Commodore 64.™</figcaption>
     </figure>
     <p>Maybe you’ve wondered what kind of software a giant like Bradbury or Crichton or Clarke could dream up. Maybe you’ve wondered what it would be like to be the hero in one of their mind-boggling adventures.</p>
